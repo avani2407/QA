@@ -1,0 +1,360 @@
+{
+  "id": "fee880a3-db13-4a0e-b155-f494a046ec7c",
+  "version": "2.0",
+  "name": "Sauce Demo Sidebar",
+  "url": "https://www.saucedemo.com/v1/inventory.html",
+  "tests": [{
+    "id": "d3b2b1d5-018b-4a36-9bce-0d76c575a81f",
+    "name": "All Items",
+    "commands": [{
+      "id": "4a8852c0-9063-48e4-b9a2-d8df6cc0b40c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/v1/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51e1fe79-572c-4cbf-93b9-d4ec0ca9a2ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f014c2e5-96e9-4cf9-acb3-b10d0a12afec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm-burger-button > button",
+      "targets": [
+        ["css=.bm-burger-button > button", "css:finder"],
+        ["xpath=//div[@id='menu_button_container']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1433e034-75b0-4263-8c5d-910ca8534455",
+      "comment": "",
+      "command": "click",
+      "target": "id=inventory_sidebar_link",
+      "targets": [
+        ["id=inventory_sidebar_link", "id"],
+        ["linkText=All Items", "linkText"],
+        ["css=#inventory_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'All Items')]", "xpath:link"],
+        ["xpath=//a[@id='inventory_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './inventory.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Items')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73376a60-c1f3-47b4-9cb9-94acea9a5edf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(2) .btn_primary",
+      "targets": [
+        ["css=.inventory_item:nth-child(2) .btn_primary", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12257689-82da-4842-b546-7bfc7ffde071",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_label",
+      "targets": [
+        ["css=.header_label", "css:finder"],
+        ["xpath=//div[@id='header_container']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f74dcdd0-9773-4449-b61a-dd2edcc4403b",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d02bc34-361c-4155-b953-6faeb2d63dcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_secondary",
+      "targets": [
+        ["css=.btn_secondary", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'REMOVE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f94ba33d-5854-4f18-aec5-568bedf85ccd",
+    "name": "About",
+    "commands": [{
+      "id": "9c7fe76e-94f6-4eae-8cd0-1f5e821a3c8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/v1/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e60b3b3-b485-47ce-92de-4c0609cfa872",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb810eb7-07c3-409e-878d-06e42c7214e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm-burger-button > button",
+      "targets": [
+        ["css=.bm-burger-button > button", "css:finder"],
+        ["xpath=//div[@id='menu_button_container']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ee64480-3c02-4c6e-9f90-de6b07cba69b",
+      "comment": "",
+      "command": "click",
+      "target": "id=about_sidebar_link",
+      "targets": [
+        ["id=about_sidebar_link", "id"],
+        ["linkText=About", "linkText"],
+        ["css=#about_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[@id='about_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://saucelabs.com/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bddd34d-d961-4274-8e4a-5ce0e7fe4787",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-lwb5go > img",
+      "targets": [
+        ["css=.css-lwb5go > img", "css:finder"],
+        ["xpath=//img[@alt='Saucelabs']", "xpath:img"],
+        ["xpath=//div[@id='__next']/header/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eee19cbd-37ca-4907-9fd4-8ef4b1c0bcda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41cca247-aa0a-4abc-a89a-aa1028f1db35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,809.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c98a201-76e6-445b-ab25-b8d9bee80502",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1617.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dcc3f39-94d2-4616-9ac1-7d78ecec96aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2420)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "63c61daa-b859-4d83-8184-5a4c76756722",
+    "name": "Reset App",
+    "commands": [{
+      "id": "f950775f-da3d-44d3-95cc-a9040f38423b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/v1/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9817f90-3b55-45b4-92cf-2db8190c3cf3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14fc8450-c074-40de-bfd5-9e1bf51668c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(2) > .inventory_item_label",
+      "targets": [
+        ["css=.inventory_item:nth-child(2) > .inventory_item_label", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a6086e4-1f7f-4d6a-9b21-981574079cb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(2) .btn_primary",
+      "targets": [
+        ["css=.inventory_item:nth-child(2) .btn_primary", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ee0228e-a672-47b7-bfca-7a602acd4261",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inventory_item:nth-child(4) .btn_primary",
+      "targets": [
+        ["css=.inventory_item:nth-child(4) .btn_primary", "css:finder"],
+        ["xpath=//div[@id='inventory_container']/div/div[4]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "764e57d5-de2d-4ef8-bea8-3500169cc891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_label",
+      "targets": [
+        ["css=.header_label", "css:finder"],
+        ["xpath=//div[@id='header_container']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65ea62f-9e06-4436-a4c5-e873f46e1bfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7924b2cf-49e2-4858-90c1-b00187d45ad8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm-burger-button > button",
+      "targets": [
+        ["css=.bm-burger-button > button", "css:finder"],
+        ["xpath=//div[@id='menu_button_container']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b558da31-5831-4c02-aa5f-bb9691a3ca81",
+      "comment": "",
+      "command": "click",
+      "target": "id=reset_sidebar_link",
+      "targets": [
+        ["id=reset_sidebar_link", "id"],
+        ["linkText=Reset App State", "linkText"],
+        ["css=#reset_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Reset App State')]", "xpath:link"],
+        ["xpath=//a[@id='reset_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Reset App State')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1729f7f8-a3ac-4e3f-8ea3-879370a6cb01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm-overlay",
+      "targets": [
+        ["css=.bm-overlay", "css:finder"],
+        ["xpath=//div[@id='menu_button_container']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d478769-0ed1-4219-a178-f77a5bca55bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aac8eb2b-b11d-4ed3-a05c-e6f3e905f3e6",
+    "name": "Log Out",
+    "commands": [{
+      "id": "0b41ce76-5e7e-4236-8515-ad33a3de2577",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.saucedemo.com/v1/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51959539-aad4-4348-a0ee-fc0c485dfdb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cc52ce0-3ab5-4098-bba9-ee564467c059",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bm-burger-button > button",
+      "targets": [
+        ["css=.bm-burger-button > button", "css:finder"],
+        ["xpath=//div[@id='menu_button_container']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af018a83-7039-4e26-9ec7-b1d9743278ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout_sidebar_link",
+      "targets": [
+        ["id=logout_sidebar_link", "id"],
+        ["linkText=Logout", "linkText"],
+        ["css=#logout_sidebar_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[@id='logout_sidebar_link']", "xpath:attributes"],
+        ["xpath=//div[@id='menu_button_container']/div/div[2]/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, './index.html')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04c961bb-3855-48c9-bd0d-ba47e566fce4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d3b2b1d5-018b-4a36-9bce-0d76c575a81f"]
+  }],
+  "urls": ["https://www.saucedemo.com/v1/inventory.html"],
+  "plugins": []
+}
